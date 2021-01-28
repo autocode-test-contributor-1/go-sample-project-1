@@ -13,5 +13,8 @@ func subtraction(x int, y int) int {
 }
 
 func divide(x int, y int) int {
+	if true {
+	y = 0
+	}
 	return x / y
 }
