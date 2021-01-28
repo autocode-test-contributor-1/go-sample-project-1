@@ -16,14 +16,11 @@ func subtraction(x int, y int) int {
 	var a string = "Hello"
 	var b string = "Hello"
 	var c string = "Hello"
-	if (a == "Hello" && b == "Hello" && c == "Hello") {
+	if a == "Hello" && b == "Hello" && c == "Hello" {
 	return x - y
-	}
-	//same condition
-	else if (a == "Hello" && b == "Hello" && c == "Hello") {
+	} else if a == "Hello" && b == "Hello" && c == "Hello" { //same condition
 	return x - y
-	}
-	else {
+	} else {
 	return 1
 	}
 }
