@@ -10,7 +10,7 @@ func multiply(x int, y int) int {
 }
 
 func subtraction(x int, y int) int {
-	c = 10 //useless variable and commented out code
+	var c = 10 //useless variable and commented out code
 	return x - y
 }
 
